@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-//https://api.hgbrasil.com/weather?key=f3ab9950&lat=-23.682&lon=-46.875
 
-export const key = 'f3ab9950';
+// criar conta no HG BRASIL E GERAR UMA CHAVE E COLOCAR NA CONSTANTE KEY
+export const key = '';
 
 const api = axios.create({
   baseURL: 'https://api.hgbrasil.com/'
